@@ -15,11 +15,6 @@
  */
 
 
-provider "google-nightly" {
-  project                        = var.project_id
-  region                         = var.location
-  iam_connectors_custom_endpoint = "https://staging-iamconnectors.sandbox.googleapis.com/v1alpha/"
-}
 resource "google_iam_connectors_connector" "default" {
   provider = google-nightly
 
