@@ -20,14 +20,14 @@ metadata:
     config.kubernetes.io/local-config: "true"
 spec:
   info:
-    title: terraform-google-iam_connector
+    title: terraform-google-iam-connectors-service
     source:
       repo: https://github.com/Daisyprakash/terraform-google-iam_connector.git
       sourceType: git
     version: 0.0.1
     actuationTool:
       flavor: Terraform
-      version: ">= 0.13"
+      version: ">= 1.3"
     description:
       tagline: This is an auto-generated module.
       detailed: "This module was generated from "

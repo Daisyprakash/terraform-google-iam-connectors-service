@@ -20,7 +20,7 @@ metadata:
     config.kubernetes.io/local-config: "true"
 spec:
   info:
-    title: terraform-google-iam_connector
+    title: terraform-google-iam-connectors-service
     source:
       repo: https://github.com/Daisyprakash/terraform-google-iam_connector.git
       sourceType: git
