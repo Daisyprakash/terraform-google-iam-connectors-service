@@ -99,12 +99,10 @@ spec:
         roles:
           - roles/connectors.admin
           - roles/iam.serviceAccountUser
-          - roles/connector.credentialsUser
           - roles/secretmanager.secretAccessor
           - roles/iamconnectors.admin
     services:
       - iamconnectors.googleapis.com
-      - iamconnectorcredentials.googleapis.com
       - secretmanager.googleapis.com
     providerVersions:
       - source: hashicorp/google-nightly
