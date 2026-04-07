@@ -26,7 +26,6 @@ module "project" {
 
   activate_apis = [
     "iamconnectors.googleapis.com",
-    "iamconnectorcredentials.googleapis.com",
     "secretmanager.googleapis.com"
   ]
 }

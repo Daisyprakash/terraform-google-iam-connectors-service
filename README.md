@@ -144,7 +144,6 @@ The service account used to provision this module requires the following IAM rol
 ### APIs
 The following APIs must be enabled in the target project:
 - **IAM Connectors API**: `iamconnectors.googleapis.com`
-- **IAM Connector Credentials API**: `iamconnectorcredentials.googleapis.com`
 - **Secret Manager API**: `secretmanager.googleapis.com`
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Inputs
